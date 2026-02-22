@@ -1,8 +1,8 @@
 <template>
     <div
-        class="min-h-screen bg-black p-10 flex items-center justify-center bg-back-pattern bg-contain bg-center bg-no-repeat">
+        class="min-h-screen bg-black flex items-center justify-center bg-back-pattern bg-contain bg-center bg-no-repeat">
 
-        <aside class="w-28 bg-transparent text-white p-6">
+        <aside class="w-26 bg-transparent text-white p-2">
             <h2 class="text-xl font-bold mb-8">Menu</h2>
             <nav class="flex flex-col gap-4">
                 <NuxtLink title="Home" to="/" class="hover:text-emerald-400">ホーム</NuxtLink>
@@ -11,7 +11,7 @@
             </nav>
         </aside>
 
-        <main class="flex-1 flexflex-col items-center justify-center bg-transparent p-8 rounded-2xl shadow-xl w-full max-w-md text-center">
+        <main class="flex-1 flexflex-col items-center justify-center bg-transparent p-4 rounded-2xl shadow-xl w-full max-w-md text-center">
             <slot />
         </main>
 
